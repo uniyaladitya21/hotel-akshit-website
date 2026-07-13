@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Hotel Akshit Palace | Uttarkashi</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ==========================
+         HEADER
+    =========================== -->
+<header>
+
+    <nav class="navbar">
+
+        <div class="logo">
+            Hotel Akshit Palace
+        </div>
+
+        <div class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <ul class="nav-links" id="nav-links">
+<ul class="nav-links">
+
+<li><a href="#home">Home</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#rooms">Rooms</a></li>
+
+<li><a href="#gallery">Gallery</a></li>
+
+<li><a href="#location">Location</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+        </ul>
+
+        <a href="#booking" class="btn">
+            Book Now
+        </a>
+
+    </nav>
+
+</header>
+
+
+    <!-- ==========================
+         HERO
+    =========================== -->
+
+    <section class="hero reveal" id="home">
+        <div class="hero-content" data-aos="zoom-in"></div>
+
+        <div class="hero-content">
+
+            <h1>
+                Experience Comfort in the Heart of Uttarkashi
+            </h1>
+
+            <p>
+                Welcome to Hotel Akshit Palace & Restaurant.
+                Enjoy comfortable rooms, delicious food,
+                free Wi-Fi, parking and warm hospitality on
+                the Gangotri Highway.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#booking" class="hero-btn">
+                    Book Your Stay
+                </a>
+
+                <a href="#rooms" class="hero-btn secondary">
+                    View Rooms
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==========================
+         BOOKING
+    =========================== -->
+<section class="booking" id="booking">
+
+    <div class="booking-container">
+
+        <div class="input-box">
+            <label>Check In</label>
+            <input type="date" id="checkin">
+        </div>
+
+        <div class="input-box">
+            <label>Check Out</label>
+            <input type="date" id="checkout">
+        </div>
+
+        <div class="input-box">
+            <label>Guests</label>
+            <select id="guests">
+                <option value="">Select</option>
+                <option>1 Guest</option>
+                <option>2 Guests</option>
+                <option>3 Guests</option>
+                <option>4 Guests</option>
+                <option>5+ Guests</option>
+            </select>
+        </div>
+
+        <div class="input-box">
+            <label>Room Type</label>
+            <select id="room">
+
+                <option value="">Select Room</option>
+                <option>Deluxe Room</option>
+                <option>Family Room</option>
+                <option>Non-AC Room</option>
+
+            </select>
+        </div>
+
+        <button class="search-btn" id="bookBtn">
+            Book Now
+        </button>
+
+    </div>
+
+</section>
+
+    <!-- ==========================
+         ABOUT
+    =========================== -->
+
+    <section class="about reveal" id="about">
+  <div class="about-image">
+
+    <img src="images/about.jpg" alt="Hotel Reception">
+
+</div>
+<div class="about-image" data-aos="fade-right"></div>
+<div class="about-content" data-aos="fade-left"></div>
+
+        <div class="about-content">
+
+            <h2>Welcome to Hotel Akshit Palace</h2>
+
+            <p>
+                Located on the beautiful Gangotri Highway in Hina, Uttarkashi,
+                Hotel Akshit Palace offers comfortable accommodation with warm
+                hospitality. Whether you're travelling with family, friends, or
+                on a pilgrimage, we strive to make your stay relaxing and memorable.
+            </p>
+
+            <div class="about-features">
+
+                <div class="feature">
+                    <h3>20 Comfortable Rooms</h3>
+                    <p>Deluxe, Family & Non-AC Rooms</p>
+                </div>
+
+                <div class="feature">
+                    <h3>Restaurant</h3>
+                    <p>Fresh & Delicious Meals</p>
+                </div>
+
+                <div class="feature">
+                    <h3>Free Wi-Fi</h3>
+                    <p>High-speed Internet Access</p>
+                </div>
+
+                <div class="feature">
+                    <h3>Free Parking</h3>
+                    <p>Safe Parking for Guests</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==========================
+         ROOMS
+    =========================== -->
+
+    <section class="rooms reveal" id="rooms">
+        <div class="room-card" data-aos="fade-up"></div>
+
+        <h2 class="section-title">Our Rooms</h2>
+
+        <p class="section-subtitle">
+            Comfortable rooms designed for a relaxing stay.
+        </p>
+
+        <div class="room-container">
+
+            <div class="room-card">
+
+                <img src="images/deluxe.jpg" alt="Deluxe Room">
+
+                <div class="room-info">
+
+                    <h3>Deluxe Room</h3>
+
+                    <p>
+                        Spacious room with modern amenities, attached bathroom,
+                        comfortable bed, television and complimentary Wi-Fi.
+                    </p>
+
+                    <a href="#contact" class="room-btn">
+                        Book Now
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="room-card">
+
+                <img src="images/family.jpg" alt="Family Room">
+
+                <div class="room-info">
+
+                    <h3>Family Room</h3>
+
+                    <p>
+                        Perfect for families with extra space, comfortable
+                        bedding and all essential facilities.
+                    </p>
+
+                    <a href="#contact" class="room-btn">
+                        Book Now
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="room-card">
+
+                <img src="images/nonac.jpg" alt="Non-AC Room">
+
+                <div class="room-info">
+
+                    <h3>Non-AC Room</h3>
+
+                    <p>
+                        Affordable and clean accommodation with all basic
+                        facilities for a pleasant stay.
+                    </p>
+
+                    <a href="#contact" class="room-btn">
+                        Book Now
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==========================
+         RESTAURANT
+    =========================== -->
+
+    <section class="restaurant reveal" id="restaurant">
+        <div class="restaurant-image" data-aos="fade-right"></div>
+        <div class="restaurant-text" data-aos="fade-left"></div>
+
+        <div class="restaurant-content">
+
+            <div class="restaurant-image">
+
+                <img src="images/restaurant.jpg">
+
+            </div>
+
+            <div class="restaurant-text">
+
+                <h2>Restaurant</h2>
+
+                <p>
+                    Enjoy delicious Indian cuisine prepared with fresh ingredients.
+                    Whether you're staying at the hotel or just passing through,
+                    our restaurant offers tasty meals in a comfortable atmosphere.
+                </p>
+
+                <ul class="restaurant-list">
+
+                    <li>✔ North Indian Cuisine</li>
+                    <li>✔ Fresh Breakfast</li>
+                    <li>✔ Lunch & Dinner</li>
+                    <li>✔ Tea & Coffee</li>
+                    <li>✔ Family Dining</li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==========================
+         WHY CHOOSE US
+    =========================== -->
+
+    <section class="features reveal">
+        <div class="feature-card" data-aos="zoom-in"></div>
+
+        <div class="container">
+
+            <h2 class="section-title">
+                Why Choose Us
+            </h2>
+
+            <p class="section-subtitle">
+                Everything you need for a comfortable stay.
+            </p>
+
+            <div class="feature-grid">
+                                <div class="feature-card">
+
+                    <div class="feature-icon">🛏</div>
+
+                    <h3>Comfortable Rooms</h3>
+
+                    <p>
+                        Spacious and clean rooms designed to provide
+                        maximum comfort during your stay.
+                    </p>
+
+                </div>
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">🍽</div>
+
+                    <h3>Restaurant</h3>
+
+                    <p>
+                        Enjoy delicious Indian food prepared fresh
+                        every day for our guests.
+                    </p>
+
+                </div>
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">📶</div>
+
+                    <h3>Free Wi-Fi</h3>
+
+                    <p>
+                        Stay connected with complimentary high-speed
+                        wireless internet.
+                    </p>
+
+                </div>
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">🚗</div>
+
+                    <h3>Free Parking</h3>
+
+                    <p>
+                        Safe and secure parking space available
+                        for every guest.
+                    </p>
+
+                </div>
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">🛎</div>
+
+                    <h3>24×7 Reception</h3>
+
+                    <p>
+                        Our reception staff is available all day
+                        and night to assist you.
+                    </p>
+
+                </div>
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">❤️</div>
+
+                    <h3>Warm Hospitality</h3>
+
+                    <p>
+                        We believe every guest should feel
+                        welcomed like family.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==========================
+         GALLERY
+    =========================== -->
+
+    <section class="gallery reveal" id="gallery">
+        <div class="gallery-item" data-aos="zoom-in"></div>
+
+        <h2 class="section-title">
+            Hotel Gallery
+        </h2>
+
+        <p class="section-subtitle">
+            Explore Hotel Akshit Palace through our gallery.
+        </p>
+
+        <div class="gallery-container">
+
+      <div class="gallery-item">
+    <img src="images/gallery1.jpg" class="gallery-img">
+</div>
+
+<div class="gallery-item">
+    <img src="images/gallery2.jpg" class="gallery-img">
+</div>
+<div class="gallery-item">
+    <img src="images/gallery3.jpg" class="gallery-img">
+</div>
+<div class="gallery-item">
+    <img src="images/gallery4.jpg" class="gallery-img">
+</div>
+<div class="gallery-item">
+    <img src="images/gallery5.jpg" class="gallery-img">
+</div>
+<div class="gallery-item">
+    <img src="images/gallery6.jpg" class="gallery-img">
+</div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==========================
+         TESTIMONIALS
+    =========================== -->
+
+    <section class="testimonials reveal">
+        <div class="testimonial-card" data-aos="fade-up"></div>
+        <h2 class="section-title">
+            What Our Guests Say
+        </h2>
+
+        <p class="section-subtitle">
+            Trusted by visitors from across India.
+        </p>
+
+        <div class="testimonial-container">
+
+            <div class="testimonial-card">
+
+                <p>
+                    "Very clean rooms and friendly staff.
+                    Highly recommended for anyone visiting Uttarkashi."
+                </p>
+
+                <h3>★★★★★</h3>
+
+                <strong>Rahul Sharma</strong>
+
+            </div>
+
+            <div class="testimonial-card">
+
+                <p>
+                    "The food was delicious and the hotel
+                    location was perfect for our trip."
+                </p>
+
+                <h3>★★★★★</h3>
+
+                <strong>Priya Verma</strong>
+
+            </div>
+
+            <div class="testimonial-card">
+
+                <p>
+                    "Comfortable stay, excellent service
+                    and good value for money."
+                </p>
+
+                <h3>★★★★★</h3>
+
+                <strong>Amit Singh</strong>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==========================
+         CONTACT
+    =========================== -->
+
+    <section class="contact reveal" id="contact">
+        <div class="contact-info" data-aos="fade-right"></div>
+        <div class="contact-form" data-aos="fade-left"></div>
+            <h2 class="section-title">Contact Us</h2>
+
+    <p class="section-subtitle">
+        We'd love to welcome you to Hotel Akshit Palace & Restaurant.
+    </p>
+
+    <div class="contact-container">
+
+        <div class="contact-info">
+
+            <h3>Hotel Akshit Palace & Restaurant</h3>
+
+            <p>
+                <strong>📍 Address:</strong><br>
+                Gangotri Highway, Hina,<br>
+                Uttarkashi, Uttarakhand - 249193
+            </p>
+
+            <p>
+                <strong>📞 Phone:</strong><br>
+                +91 83940 91835
+            </p>
+
+            <p>
+                <strong>🕒 Reception:</strong><br>
+                Open 24 × 7
+            </p>
+
+            <p>
+                <strong>📶 Free Wi-Fi Available</strong>
+            </p>
+
+            <p>
+                <strong>🚗 Free Parking Available</strong>
+            </p>
+
+        </div>
+
+        <div class="contact-form">
+
+            <form>
+
+                <input type="text" placeholder="Your Name" required>
+
+                <input type="email" placeholder="Your Email" required>
+
+                <input type="tel" placeholder="Phone Number">
+
+                <textarea rows="6" placeholder="Your Message"></textarea>
+
+                <button type="submit">
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ==========================
+     GOOGLE MAP
+========================== -->
+
+<section class="map-section" id="location">
+
+    <div class="container">
+
+        <h2 class="section-title">Find Us</h2>
+
+        <p class="section-subtitle">
+            Hotel Akshit Palace & Restaurant, Gangotri Highway, Hina, Uttarkashi, Uttarakhand
+        </p>
+
+        <div class="map-container">
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d221190.69726853925!2d78.19313049316408!3d30.73770452631272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3908f35fbe22a2f3%3A0xc83f624f341db18c!2sHotel%20Akshit%20Palace%20and%20Restaurant!5e1!3m2!1sen!2sin!4v1783920109150!5m2!1sen!2sin"
+                width="100%"
+                height="500"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="strict-origin-when-cross-origin">
+
+            </iframe>
+
+        </div>
+
+        <div class="map-button">
+
+            <a href="https://maps.google.com/?q=Hotel+Akshit+Palace+and+Restaurant+Uttarkashi"
+               target="_blank"
+               class="hero-btn">
+
+                📍 Get Directions
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ==========================
+     FOOTER
+========================== -->
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-about">
+
+            <h2>Hotel Akshit Palace</h2>
+
+            <p>
+                Experience comfort, hospitality and delicious food
+                in the beautiful hills of Uttarkashi.
+            </p>
+
+        </div>
+
+        <div class="footer-links">
+
+            <h3>Quick Links</h3>
+
+            <ul>
+
+                <li><a href="#home">Home</a></li>
+
+                <li><a href="#about">About</a></li>
+
+                <li><a href="#rooms">Rooms</a></li>
+
+                <li><a href="#restaurant">Restaurant</a></li>
+
+                <li><a href="#gallery">Gallery</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+        </div>
+
+        <div class="footer-contact">
+
+            <h3>Contact</h3>
+
+            <p>📞 +91 83940 91835</p>
+
+            <p>📍 Uttarkashi, Uttarakhand</p>
+
+            <p>🛎 24×7 Reception</p>
+
+            <p>📶 Free Wi-Fi</p>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 Hotel Akshit Palace. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+<!-- ==========================
+     JAVASCRIPT
+========================== -->
+
+<script src="js/script.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script src="js/script.js"></script>
+<!-- ==========================
+     GALLERY LIGHTBOX
+========================== -->
+
+<div class="lightbox" id="lightbox">
+
+    <span class="close-lightbox">&times;</span>
+
+    <img id="lightbox-img" src="" alt="Gallery Image">
+
+</div>
+<!-- ==========================
+     FLOATING BUTTONS
+========================== -->
+
+<!-- WhatsApp -->
+<a href="https://wa.me/918394091835"
+   class="whatsapp-btn"
+   target="_blank"
+   aria-label="Chat on WhatsApp">
+
+    <i class="fab fa-whatsapp"></i>
+
+</a>
+
+<!-- Call -->
+<a href="tel:+918394091835"
+   class="call-btn"
+   aria-label="Call Hotel">
+
+    <i class="fas fa-phone"></i>
+
+</a>
+
+<!-- Scroll To Top -->
+<button class="top-btn" id="topBtn" aria-label="Scroll to top">
+
+    <i class="fas fa-arrow-up"></i>
+
+</button>
+</body>
+</html>
